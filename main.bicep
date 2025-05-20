@@ -1,14 +1,14 @@
 @description('Nazwa aplikacji Function App')
-param functionAppName string = 'zzp2025-function'
+param functionAppName string = 'zzp2025-functionNS'
 
 @description('Lokalizacja zasobów')
 param location string = resourceGroup().location
 
 @description('Plan App Service')
-param hostingPlanName string = 'zzp2025-plan'
+param hostingPlanName string = 'zzp2025-planNS'
 
 @description('Storage Account name')
-param storageAccountName string = 'zzp2025storage'
+param storageAccountName string = 'zzp2025storageNS'
 
 resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
   name: storageAccountName
