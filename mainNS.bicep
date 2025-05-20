@@ -1,5 +1,5 @@
 @description('Nazwa aplikacji Function App')
-param functionAppName string = 'zzp2025-functionNS'
+param functionAppName string = 'zzp2025-function'
 
 @description('Lokalizacja zasobów')
 param location string = resourceGroup().location
