@@ -25,4 +25,4 @@ jobs:
           az deployment group create \
             --resource-group ${{ secrets.AZURE_RG }} \
             --template-file main.bicep \
-            --parameters location=${{ secrets.AZURE_LOCATION }} environment=dev
+            --parameters location=${{ secrets.AZURE_LOCATION }}
